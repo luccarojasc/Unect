@@ -1,0 +1,583 @@
+html {
+    font-size: 65.5%;
+}
+/*Main*/
+#main {
+    width:  100vw !important; 
+    max-height: 1410px;
+    margin: auto;
+}
+/*Banner com o título da página*/
+#Banner {
+/* Intro Sobre nós */
+
+
+width: auto;
+max-width: 2880px;
+height: 559px;
+max-height: 1118px;
+display: flex;
+justify-content: center;
+align-items: center;
+background-image: url("./Intro\ Sobre\ nós.png");
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+
+#TextodoBanner {
+
+
+height: 107px;
+top: 326px;
+
+font-family: 'Cormorant Garamond';
+font-style: normal;
+font-weight: 500;
+font-size: 8.8rem;
+line-height: 10.7rem;
+/* identical to box height */
+
+
+color: #EBDACC;
+}
+
+#ImagemdoBanner {
+position: absolute;
+width: 100vw;
+/* min-width: 320px; */
+height: auto;
+max-height: 559px;
+
+top: 100px;
+}
+
+#CentrodaPagina {
+
+/* width: 100vw;
+
+height: 791px; */
+left: 0px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 52px 120px;
+
+background: #F5F3ED;
+}
+
+#Rectangle61 {
+    position: absolute;
+    width: 311px;
+    height: 28px;
+    left: -20px;
+    bottom: -2px;
+    
+background: #FBC9A8;
+}
+
+#TituloSobreNos {
+    /* Quem Somos */
+
+
+position: relative;
+width: 269px;
+height: 56px;
+/* left: 120px; */
+/* top: 50px; */
+
+font-family: 'Cormorant Garamond';
+font-style: normal;
+font-weight: 700;
+font-size: 3.8rem;
+line-height: 5.6rem;
+/* identical to box height, or 140% */
+
+letter-spacing: 0.02em;
+text-transform: uppercase;
+
+color: #1F0C00;
+
+}
+/*Corpo da página com o texto e a imagem redonda*/
+#TextonoCorpodaPagina {
+/* position: relative; */
+width: 607px;
+height: 504px;
+/* left: 120px; */
+/* top: 160px; */
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 1.8rem;
+line-height: 2.8rem;
+/* or 156% */
+
+
+color: #1F0C00;
+}
+
+#Descricao {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+#ImagemCirculo {
+    width: 750px;
+    height: 690.14px;
+    background-image: url("./nathan-dumlao-6VhPY27jdps-unsplash\ 1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    clip-path: circle(47% at 50% 50%);
+}
+
+#CaixadeTitulo{
+    position: relative;
+    margin-bottom: 30px;
+}
+
+#ImgemaoLadodoTexto {
+/* position: relative; */
+width: 750px;
+height: 690.14px;
+/* left: 730px; */
+/* top: 37px; */
+
+clip-path: circle(47% at 50% 50%);
+
+}
+
+@media screen and (max-width: 1480px) {
+
+    #CaixadeTitulo{
+        margin-bottom: 40px;
+    }
+    
+    #ImagemCirculo{
+        
+        width: 40vw;
+        height: 40vw;
+        min-width: 283px;
+        min-height: 283px;
+
+    }
+    
+    #TextonoCorpodaPagina {
+        height:auto;
+        width: 42vw;
+        min-width: none;
+
+    }
+    
+}
+
+#TextoAux-1{
+    display: none;
+}
+
+#TextoAux-2{
+    display: none;
+}
+
+#TextonoCorpodaPagina-1 {
+    /* position: relative; */
+    width: 30vw;
+    /* left: 120px; */
+    /* top: 160px; */
+    
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 2.8rem;
+    /* or 156% */
+    
+    
+    color: #1F0C00;
+    }
+
+    #TextonoCorpodaPagina-2 {
+        /* position: relative; */
+        /* left: 120px; */
+        /* top: 160px; */
+        
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.8rem;
+        line-height: 2.8rem;
+        /* or 156% */
+        
+        
+        color: #1F0C00;
+        }
+
+@media screen and (max-width: 980px) {
+
+    #Descricao{
+        flex-direction: column;
+    }
+    #TextoAux-1{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+
+    }
+    #TextoAux-2{
+        display: flex;
+    }
+   
+    #ImagemCirculo{
+        
+        display: none;
+
+    }
+
+    #ImagemCirculo-1 {
+        width: 40vw;
+        height: 40vw;
+        min-width: 283px;
+        min-height: 283px;
+        background-image: url("./nathan-dumlao-6VhPY27jdps-unsplash\ 1.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+    
+        clip-path: circle(47% at 50% 50%);
+    }
+    
+    #TextonoCorpodaPagina {
+        display: none;
+
+    }
+    
+}
+/*Parte com o nome da equipe e o textinho deles*/
+
+#NossoTime {
+/* position: absolute; */
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    Background: #80451F;
+    padding-bottom: 57px;
+}
+
+#Time {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    
+}
+
+.Bloco {
+    display: flex;
+    justify-content: center;
+    background: #F5F3ED;
+    box-shadow: 0px 3px 2px rgba(31, 12, 0, 0.1);
+    border-radius: 8px;
+    gap: 25px;
+    padding: 39px 47px;
+}
+
+.EquipeTexto {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+#TitulodaSessão {
+/* position: absolute; */
+font-family: 'Cormorant Garamond';
+font-style: normal;
+font-weight: 700;
+font-size: 3.8rem;
+line-height: 4.0rem;
+
+letter-spacing: 0.02em;
+text-transform: uppercase;
+
+color: #F5F3ED;
+
+border-bottom: 2px solid #B2784A;
+margin-bottom: 40px;
+margin-top: 56px;
+}
+
+
+
+#CarolinaOliveira {
+/* position: relative; */
+width: 202px;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 2.4rem;
+line-height: 3.0rem;
+/* identical to box height, or 125% */
+
+letter-spacing: 0.02em;
+border-bottom: 2px solid #B2784A;
+color: #1F0C00;
+}
+
+
+#TextoCarolina {
+/* position: absolute; */
+width: 575px;
+height: 112px;
+left: 35.14%;
+top: 298px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 1.8rem;
+line-height: 2.6rem;
+/* or 156% */
+
+
+color: #1F0C00;
+}
+
+#LauraOliveira {
+/* position: absolute; */
+width: 170px;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 2.4rem;
+line-height: 3.0rem;
+/* identical to box height, or 125% */
+border-bottom: 2px solid #B2784A;
+letter-spacing: 0.02em;
+    
+color: #1F0C00;
+}
+
+#TextoLaura {
+/* position: absolute; */
+width: 575px;
+height: 112px;
+left: 35.14%;
+top: 568px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 1.7rem;
+line-height: 2.6rem;
+}
+
+
+
+#JoaoOliveira {
+/* position: absolute; */
+width: 155px;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 2.4rem;
+line-height: 3.0rem;
+border-bottom: 2px solid #B2784A;
+/* identical to box height, or 125% */
+
+letter-spacing: 0.02em;
+
+color: #1F0C00;
+}
+
+#TextoJoao {
+/* position: absolute; */
+width: 575px;
+height: 140px;
+left: 35%; 
+top: 885px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 1.8rem;
+line-height: 2.8rem;
+/* or 156% */
+
+
+color: #1F0C00;
+}
+
+
+
+
+.foto-1 {
+
+/* position: relative; */
+width: 249px;
+height: 231px;
+left: 15%;
+top: -55px;
+
+clip-path: circle(47% at 50% 50%);
+
+}
+
+
+    @media screen and (max-width: 980px) {
+
+        .Bloco{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 25px;
+            padding: 39px 47px;
+            background: none;
+            box-shadow: none;
+            border-radius: none;
+            }
+            .EquipeTexto {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 24px;
+            }
+            #TitulodaSessão {
+            /* position: absolute; */
+            font-family: 'Cormorant Garamond';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 3.8rem;
+            line-height: 4.0rem;
+            
+            letter-spacing: 0.02em;
+            text-transform: uppercase;
+            
+            color: #F5F3ED;
+            
+            border-bottom: 2px solid #B2784A;
+            margin-bottom: 0px;
+            margin-top: 56px;
+            }
+            
+            
+            
+            #CarolinaOliveira {
+            /* position: relative; */
+            width: 202px;
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 2.4rem;
+            line-height: 3.0rem;
+            /* identical to box height, or 125% */
+            
+            letter-spacing: 0.02em;
+            border-bottom: 2px solid #B2784A;
+            color: #FFFFFF;
+            ;
+            }
+            
+            
+            #TextoCarolina {
+            /* position: absolute; */
+            width: 71vw;
+            height: 112px;
+            left: 35.14%;
+            top: 298px;
+            
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 1.8rem;
+            line-height: 2.6rem;
+            text-align: center;
+            /* or 156% */
+            
+            
+            color: #FFFFFF;
+            }
+            
+            #LauraOliveira {
+            /* position: absolute; */
+            width: 170px;
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 2.4rem;
+            line-height: 3.0rem;
+            /* identical to box height, or 125% */
+            border-bottom: 2px solid #B2784A;
+            letter-spacing: 0.02em;
+                
+            color: #FFFFFF;
+            }
+            
+            #TextoLaura {
+            /* position: absolute; */
+            width: 69vw;
+            height: 112px;
+            left: 35.14%;
+            top: 568px;
+            
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 1.7rem;
+            line-height: 2.6rem;
+            text-align: center;
+            color: #FFFFFF;
+            }
+            
+            
+            
+            #JoaoOliveira {
+            /* position: absolute; */
+            width: 155px;
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 2.4rem;
+            line-height: 3.0rem;
+            border-bottom: 2px solid #B2784A;
+            /* identical to box height, or 125% */
+            
+            letter-spacing: 0.02em;
+            
+            color: #FFFFFF;
+            }
+            
+            #TextoJoao {
+            /* position: absolute; */
+            width: 71vw;
+            height: 140px;
+            left: 35%; 
+            top: 885px;
+            
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 1.8rem;
+            line-height: 2.8rem;
+            text-align: center;
+            /* or 156% */
+            
+            
+            color: #FFFFFF;
+            }
+            
+            
+            
+            
+            .foto-1 {
+            
+            /* position: relative; */
+            width: 40vw;
+            height: 40vw;
+            left: 15%;
+            top: -55px;
+            
+            clip-path: circle(47% at 50% 50%);
+            }        
+    }

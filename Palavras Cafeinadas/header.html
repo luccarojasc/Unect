@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="UTF-8"/>
+	<link rel="stylesheet" href="_css/estilo-header.css"/>
+</head>
+<body>
+	<div class="interface" id="interface">
+	<header>
+		<button onclick="ativarmenu()" class="bticon_header">
+		<svg xmlns="http://www.w3.org/2000/svg" width="50.04" height="28" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+</svg>
+		</button>
+		<figure class="logoheader">
+				<a class="escritalogo" href="home.html"><img id="logo_header" src="_imagens/logoimagem.png">
+					<figcaption>Palavras Cafeinadas</figcaption></a>
+			</figure>
+		<div class="navheader" id="navheader">
+			<h1 class="escritasgerais" id="sn"><a class="escritasgerais" href="sobre-nos.html">Sobre nós</a></h1>
+			<h1 class="escritasgerais" id="serv"><a class="escritasgerais" href="servicos.html">Serviços</a></h1>
+			<h1 class="escritasgerais" id="cont"><a class="escritasgerais" href="entre-em-contato.html">Contato</a></h1>
+			<h1 class="escritasgerais" id="tel"><img id="logotel" src="_imagens/icone-telefone.png">19-99126972</h1>
+		</div>
+	</header>
+	</div>
+</body>
+<script>
+	var header = document.getElementById('interface');
+	var navheader = document.getElementById('navheader');
+	var showmenu = true;
+	function ativarmenu(){
+		showmenu = !showmenu;
+		if (showmenu){
+			navheader.style.display = 'none';
+		}
+		else{
+			navheader.style.display = 'block';
+		}
+	}
+	window.addEventListener('resize', function(event){
+		if(window.innerWidth > 640 && showmenu){
+			ativarmenu();
+		}
+		if(window.innerWidth <=640 && !showmenu){
+			ativarmenu();
+		}
+	});
+</script>
+</html>

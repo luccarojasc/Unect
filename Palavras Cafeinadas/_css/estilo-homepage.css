@@ -1,0 +1,486 @@
+@charset "UTF-8";
+@font-face{
+    font-family: 'FonteTextos';
+    src: url("../_fontes/OpenSans-VariableFont_wdth,wght.otf");
+}
+
+footer{
+	top: 2097px;
+}
+main{
+	overflow-x: hidden; 
+	overflow-y: hidden;
+}
+/* Formatação banner */
+div#banner{
+	position: relative;
+	top:100px;
+}
+figure.img1{
+	position: relative;
+}
+figure.img1 figcaption{
+	font-family: 'Open Sans', sans-serif;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	background-color: rgba(0, 0, 0, .4);
+	color: #F0F0F0;
+	width: 100%;
+	height: 99.25%;
+	box-sizing: border-box;
+}
+
+figure.img1 figcaption h1.himg1{
+	position: relative;
+	font-size: 56px;
+	line-height: 76px;
+	top: 4.35vw;
+	left: 8.26vw;
+}
+h1#maiorh1banner, p#maiorpbanner, li#botaomaiorbanner{
+	display: inline-block;
+}
+h1#menorh1banner, p#menorpbanner, li#botaomenorbanner{
+	display: none;
+}
+figure.img1 figcaption p{
+	position: relative;
+	font-size: 24px;
+	line-height: 33px;
+	top: 146px;
+	left: -415px;
+}
+ul#botao1{
+	position: relative;
+	top: 183px;
+	left: 120px;
+	border-radius: 8px;
+	width: 222px;
+	background-color: #8F542E;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 12px 30px;
+	gap: 27px;
+}
+ul#botao1:hover {
+	background-color: #CA8E67;
+}
+ul#botao1 li{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	font-weight: 800;
+	line-height: 33px;
+	letter-spacing: 0.03em;
+	position: relative;
+	list-style-type: none;
+}
+ul#botao1 li a{
+    text-decoration: none;
+	color: #F0F0F0;
+}
+img#seta1{
+	width: 21.83px;
+	height: 13px;
+}
+
+/* Formatação "sobre nós" */
+div#sobrenoshp{
+	margin-top: 100px;
+	background-color: #F5F3ED;	
+	height: 615px;
+	z-index: -2;
+}
+div#sobrenoshp h1#sobrenoshp{
+	position: relative;
+	top: 45px;
+	left: 120px;
+	width: 222px;
+	height: 56px;
+	font-family: 'Cormorant Garamond';
+	font-style: normal;
+	font-weight: 900;
+	font-size: 40px;
+	line-height: 56px;
+	letter-spacing: 0.02em;
+	text-transform: uppercase;
+	color: #1F0C00;
+	z-index: 0;
+}
+h1#sobrenoshp::before {
+	content: "";
+	position: absolute;
+	top:27px;
+	left: 120px;
+	bottom: 16px;
+	width: 245px;
+	height: 28px;
+	transform: translateX(-55%);
+	background: #FBC9A8;
+	z-index: -1;
+}
+
+div#sobrenoshp p{
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 24px;
+	color: #1F0C00;
+}
+div#sobrenoshp p#p1snhp{
+	position: relative;
+	top: 96px;
+	left: 120px;
+
+}
+div#sobrenoshp p#p2snhp{
+	position: relative;
+	top: 112px;
+	left: 120px;
+}
+ul#botao2{
+	position: relative;
+	top: 156px;
+	left: 120px;
+	border-radius: 8px;
+	cursor: pointer;
+	width: 222px;
+	background-color: #8F542E;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 12px 30px;
+	gap: 27px;
+}
+ul#botao2:hover {
+	background-color: #CA8E67;
+}
+ul#botao2 li{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	font-weight: 800;
+	line-height: 33px;
+	letter-spacing: 0.03em;
+	position: relative;
+	display: inline-block;
+}
+ul#botao2 li a{
+    text-decoration: none;
+	color: #F0F0F0;
+}
+img#imgsn{
+	position: relative;
+	top: -173px;
+	left: 63.5vw;
+	max-width: 352px;
+
+}
+
+/* Formatação cafe onda */
+img#cafeonda{
+	position: absolute;
+	max-width: 1440px;
+	top: 1200px;
+}
+
+/* Formatação "venha se apaixonar" */
+div#vsa{
+	background-color: #80451F;	
+	height: 839px;
+	z-index: -2;
+}
+div#vsa h1#vsa{
+	position: relative;
+	top: 169px;
+	left: 453px;
+	width: 534px;
+	height: 56px;
+	font-family: 'Cormorant Garamond', serif;
+	font-style: normal;
+	font-weight: 50;
+	font-size: 48px;
+	line-height: 56px;
+	letter-spacing: 0.02em;
+	text-transform: uppercase;
+	color: #F5F3ED;
+}
+div#vsa h1#vsamenor{
+	display: none;
+}
+#vsa::before{
+	border-bottom: 3px solid #B2784A;
+	content: "";
+	position: absolute;
+    width: 381px;
+    top: 60px;
+	left: 75px;
+	border-radius: 1px;
+}
+div#vsa a{
+	text-decoration: none;
+}
+figure.livraria{
+	position: relative;
+	left: 324px;
+	top: 220px;
+	border: 8px solid #F5F3ED;
+	box-shadow: 0px 3px 2px rgba(31, 12, 0, 0.1);
+	background-color: #F5F3ED;
+	height: 387.28px;
+	max-width: 282px;
+	border-radius: 8px;
+	border-top: 0px;
+	border-left: 0px;
+	border-right: 0px;
+}
+figure.livraria img{
+	max-width: 282px;
+}
+figure.livraria figcaption{
+	position: relative;
+	left: 84px;
+	top: 16.46px;
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 33px;
+	letter-spacing: 0.02em;
+	color: #1F0C00;
+}
+figure.livraria figcaption::before{
+	border-bottom: 3px solid var(--color-botao);
+	content: "";
+	position: absolute;
+    width: 78px;
+    top: 33px;
+	left: 22px;
+	border-radius: 1px;
+}
+figure.cafeteria{
+	position: relative;
+	left: 834px;
+	top: -175px;
+	border: 8px solid #F5F3ED;
+	box-shadow: 0px 3px 2px rgba(31, 12, 0, 0.1);
+	background-color: #F5F3ED;
+	height: 387.28px;
+	max-width: 282px;
+	border-radius: 8px;
+	border-top: 0px;
+	border-left: 0px;
+	border-right: 0px;
+}
+figure.cafeteria img{
+	max-width: 282px;
+}
+figure.cafeteria figcaption{
+	position: relative;
+	left: 75px;
+	top: 16px;
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 33px;
+	letter-spacing: 0.02em;
+	color: #1F0C00;
+}
+figure.cafeteria figcaption::before{
+	border-bottom: 3px solid var(--color-botao);
+	content: "";
+	position: absolute;
+    width: 78px;
+    top: 33px;
+	left: 32px;
+	border-radius: 1px;
+}
+ul#botao3{
+	background-color: #FBC9A8;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 12px 26.5px;
+	gap: 20px;
+	position: absolute;
+	left: 576px;
+	top: 2004px;
+	border-radius: 8px;
+	width: 228px;
+}
+ul#botao3:hover {
+	background-color: #FFDFCA;
+}
+ul#botao3 li{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	font-weight: 800;
+	line-height: 33px;
+	position: relative;
+	display: inline-block;	
+}
+ul#botao3 li {
+    text-decoration: none;
+	color: #1F0C00;
+}
+/* Responsividade */
+main{
+	min-width: 640px;
+	max-width: 1440px;
+	margin: auto;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.418);
+}
+main img{
+	width: 100%;
+}
+
+@media screen and (max-width: 640px){
+main{
+		overflow-x: hidden;
+	}
+figure.img1 figcaption h1.himg1{
+	top: 32 px;
+	left: 24px;
+	font-size: 40px;
+	line-height: 48px;
+}
+figure.img1 figcaption p{
+	top: 50px;
+	left: 24px;
+	font-size: 20px;
+}
+ul#botao1{
+	top: 85px;
+	left: 24px;
+	width: 120px;
+	height: 20px;
+}
+h1#maiorh1banner, p#maiorpbanner, li#botaomaiorbanner{
+	display: none;
+}
+h1#menorh1banner, p#menorpbanner, li#botaomenorbanner{
+	display: inline-block;	
+}
+div#sobrenoshp h1#sobrenoshp{
+	position: relative;
+	top: 32px;
+	left: 36px;
+}
+div#sobrenoshp p#p1snhp{
+	top: 48px;
+	left: 24px;
+}
+div#sobrenoshp p#p2snhp{
+	top: 60px;
+	left: 24px;
+}
+ul#botao2{
+	top: 76px;
+	left: 177px;
+}
+img#cafeonda{
+	top: 838px;
+	width:640px;
+}
+div#sobrenoshp{
+	height: 432px;
+}
+div#vsa{
+	width: 640px;
+}
+div#vsa h1#vsa{
+	display: none;
+}
+div#vsa h1#vsamenor{
+	display: block;
+	position: absolute;
+	top: 997px;
+	left: 207px;
+	width: 234px;
+	height: 42px;
+	font-weight: 500;
+	font-size: 34px;
+	line-height: 42px;
+	letter-spacing: 0.02em;
+	color: #F5F3ED;
+}
+div#vsa h1#vsamenor::before{
+	border-bottom: 2px solid #B2784A;
+	content: "";
+	position: absolute;
+    width: 180px;
+    top: 46px;
+	left: 24px;
+	border-radius: 1px;
+}
+figure.livraria{
+	left: 25px;
+	top: 220px;
+	height: 387.28px;
+	max-width: 282px;
+}
+figure.livraria img{
+	max-width: 282px;
+}
+figure.livraria figcaption{
+	left: 84px;
+	top: 12px;
+}
+figure.livraria figcaption::before{
+	left: 3px;
+	width: 104px;
+}
+figure.cafeteria{
+	left: 330px;
+	top: -175px;
+}
+figure.cafeteria img{
+	max-width: 282px;
+}
+figure.cafeteria figcaption{
+	left: 75px;
+	top: 16px;
+	line-height: 33px;
+	letter-spacing: 0.02em;
+	color: #1F0C00;
+}
+figure.cafeteria figcaption::before{
+	border-bottom: 2px solid var(--color-botao);
+	content: "";
+	position: absolute;
+    width: 120px;
+    top: 33px;
+	left: 6px;
+	border-radius: 1px;
+}
+ul#botao3{
+	display: none;
+}
+}
+@media screen and (max-width: 1050px){
+img#imgsn{
+	display: none;
+	}
+}
+@media screen and (min-width: 1440px){
+figure.img1 figcaption h1.himg1{
+	top: 64px;
+	left: 119px;
+}
+figure.img1 figcaption p{
+	top: 146px;
+	left: -415px;
+}
+ul#botao1{
+	top: 186px;
+	left: 119px;
+}
+img#imgsn{
+	left: 912px;
+}
+ul#botao3{
+	left: 42vw;
+}
+}

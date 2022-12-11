@@ -1,0 +1,644 @@
+@charset "UTF-8";
+
+footer{
+	top: 3253px;
+}
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+/* Serviços */
+div#servicos{
+	background-color: #F0F0F0;
+	height: 557px;
+}
+div#servicos h1#divserv{
+	position: relative;
+	top: 302px;
+	left: 35.5vw;
+	font-family: 'Cormorant Garamond';
+	font-weight: 600;
+	font-size: 88px;
+	line-height: 107px;
+	color: #57290B;
+	cursor: default;
+}
+img#livroserv1{
+	position: relative;
+	top: 170px;
+}
+img#livroserv2{
+	position: relative;
+	top: 170px;
+	left: 44vw;
+}
+/* Livraria*/
+div#livraria{
+	background-color: #F5F3ED;
+	height: 1072px;
+}
+div#livraria h1#livtitulo{
+	position: relative;
+	top: 59px;
+	left: 121px;
+	font-family: 'Cormorant Garamond';
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 56px;
+	letter-spacing: 0.02em;
+	color: #1F0C00;
+	z-index: 0;
+	cursor: default;
+}
+div#livraria h1#livtitulo::before{
+	content: "";
+	position: absolute;
+	top:27px;
+	left: 105px;
+	bottom: 16px;
+	width: 227px;
+	height: 28px;
+	transform: translateX(-55%);
+	background: #FBC9A8;
+	z-index: -1;
+}
+div#livraria h2#mvend{
+	position: relative;
+	top: 80px;
+	left: 613px;
+	font-family: 'Open Sans';
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 18px;
+	color: #8F542E;
+	cursor: default;
+}
+div#livraria h2#mvend::before{
+	border-bottom: 2px solid #B2784A;
+	content: "";
+	position: absolute;
+    width: 225px;
+    top: 26px;
+	left: 1px;
+	border-radius: 1px;
+}
+img.livrosserv{
+	border-radius: 8px;
+}
+figure.livrosserv figcaption{
+	cursor: default;
+}
+figure#livroahsf img{
+	position: relative;
+	top: 125px; /*8.7vw*/
+	left: 15.2vw;
+}
+figure#livroahsf figcaption{
+	position: relative;
+	top: 130px;
+	left: 15.2vw;
+}
+figure#livrota img{
+	position: relative;
+	top: -257px;
+	left: 41.7vw;
+}	
+figure#livrota figcaption{
+	position: relative;
+	top: -252px;
+	left: 41.7vw;
+}
+figure#livrord img{
+	position: relative;
+	top: -637px;
+	left: 68.8vw;
+}
+figure#livrord figcaption{
+	position: relative;
+	top: -635px;
+	left: 68.8vw;
+}		
+figure#livro1984 img{
+	position: relative;
+	top: -605px;
+	left: 28.9vw;
+}
+figure#livro1984 figcaption{
+	position: relative;
+	top: -600px;
+	left: 28.9vw;
+}
+figure#livroomdm img{
+	position: relative;
+	top: -985px;
+	left: 55vw;
+}
+figure#livroomdm figcaption{
+	position: relative;
+	top: -980px;
+	left: 55vw;
+}
+figcaption.livros{
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 18px;
+	text-transform: capitalize;
+	color: #1F0C00;
+}
+figcaption.livros p{
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 18px;
+	text-transform: capitalize;
+	color: #525252;
+}
+p#sinopse1, p#sinopse2, p#sinopse3, p#sinopse4{
+	display: none;
+}
+/* Cafeteria */
+div#cafeteria{
+	background-color: #80451F;
+	height: 624px;
+}
+div#cafeteria h1{
+	position: relative;
+	top: 52px;
+	left: 42.3vw;
+	font-family: 'Cormorant Garamond';
+	font-weight: 500;
+	font-size: 40px;
+	line-height: 48px;
+	letter-spacing: 0.02em;
+	color: #F5F3ED;
+	cursor: default;
+}
+.galeria{
+	position: relative;
+	display: flex;
+	flex-flow: row nowrap;
+	top: 92px;
+	left: 136px;
+	width: 1840px;
+	height: 500px;
+}
+.galeria-wrapper{
+	overflow-x: scroll;
+	overflow-y: hidden;
+}
+.galeria-wrapper::-webkit-scrollbar{
+	height: 10px;
+}
+.galeria-wrapper::-webkit-scrollbar-thumb{
+	height: 10px;
+	background-color: #B2784A;
+	border-radius: 8px;
+}
+.imgsgaleria{
+	margin-right: 24px;
+}
+.figsgaleria img{
+	padding: 16px 16px 114px 16px;
+	background-color: #F5F3ED;
+}
+.figsgaleria figcaption{
+	position: absolute;
+	top: 294px;
+	padding-left: 16px;
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 18px;
+	color: #1F0C00;
+}
+.figsgaleria figcaption p{
+	position: relative;
+	top: 4px;
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 18px;
+	letter-spacing: 0.02em;
+	color: #1F0C00;
+}
+.imgsgaleria{
+	border-radius: 8px;
+}
+div#cafeteria h1::before{
+	border-bottom: 3px solid #B2784A;
+	content: "";
+	position: absolute;
+    width: 160px;
+    top: 52px;
+	left: 30px;
+	border-radius: 1px;
+}
+/* Faça um orçamento */
+div#orcamento{
+	background-color:  #F5F3ED;
+	height: 1000px;
+}
+div#orcamento h1{
+	position: relative;
+	top: 56px;
+	left: 116px;
+	font-family: 'Cormorant Garamond';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 56px;
+	letter-spacing: 0.02em;
+	color: #1F0C00;
+	z-index: 0;
+}
+div#orcamento h1::before{
+	content: "";
+	position: absolute;
+	top: 27px;
+	left: 250px;
+	bottom: 16px;
+	width: 484px;
+	height: 28px;
+	transform: translateX(-55%);
+	background: #FBC9A8;
+	z-index: -1;
+}
+div#orcamento h2{
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 30px;
+	letter-spacing: 0.02em;
+	color: #1F0C00;
+}
+div#orcamento h2#orcnome{
+	position: relative;
+	top: 143px;
+	left: 124px;
+}
+div#orcamento h2#orcemail{
+	position: relative;
+	top: 195px;
+	left: 125px;
+}
+div#orcamento h2#orcmensag{
+	position: relative;
+	top: 231px;
+	left: 125px;
+}
+div#orcamento img#imgorcserv{
+	display: block;
+	position: relative;
+	top: -326px;
+	left: 837px;
+	border-radius: 8px;
+}
+ul#botao2orcserv{
+	position: relative;
+	top: -483px;
+	left: 125px;
+	max-width: 302px;
+	background-color: #8F542E;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 12px 30px;
+	gap: 27px;
+	border-radius: 8px;
+	cursor: pointer;
+}
+ul#botao2orcserv:hover {
+	background-color: #CA8E67;
+}
+ul#botao2orcserv li{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	font-weight: 800;
+	line-height: 33px;
+	letter-spacing: 0.03em;
+	position: relative;
+	display: inline-block;
+    text-decoration: none;
+	color: #F0F0F0;
+}
+.input-box input#nome, input#email, textarea#msg{
+	padding: 0.8rem 1.2rem;
+	font-family: 'Open Sans';
+	font-size: 20px;
+}
+.input-box input#nome, input#email{
+	border: 1px solid #8F542E;
+	border-radius: 8px;
+	height: 70px;
+	width: 587px;
+}
+.input-box input#nome{
+	position: relative;
+	top: 150px;
+	left: 124px;
+}
+.input-box input#email{
+	position: relative;
+	top: 200px;
+	left: 124px;
+}
+.input-box textarea#msg{
+	position: relative;
+	top: 236px;
+	left: 124px;
+	border: 1px solid #8F542E;
+	border-radius: 8px;
+	height: 220px;
+	width: 587px;
+	resize: none;
+}
+.input-box input, textarea:focus-visible{
+	outline: 1px solid #8F542E;
+}
+/* Responsividade */
+main{
+	min-width: 640px;
+	max-width: 1440px;
+	margin: auto;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.418);
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+
+@media screen and (max-width: 640px){
+div#servicos h1#divserv{
+	top: 264px;
+	left: 110px;
+	font-family: 'Cormorant Garamond';
+	font-weight: 600;
+	font-size: 88px;
+	line-height: 107px;
+	color: #57290B;
+	cursor: default;
+}
+img#livroserv1{
+	top:325px;
+	width: 177.73px;
+	height: 123.74px;
+}
+img#livroserv2{
+	width: 177.73px;
+	height: 123.74px;
+	top: 325px;
+	left: 282px;
+}
+div#livraria h1#livtitulo{
+	font-weight: 700;
+	font-size: 34px;
+	line-height: 42px;
+	letter-spacing: 0.02em;
+	top: 30px;
+	left: 36px;
+}
+div#livraria h1#livtitulo::before{
+	width: 190px;
+	top: 21px;
+	left: 92px;
+}
+div#livraria h2#mvend{
+	top: 63px;
+	left: 221px;
+	color: black;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 28px;
+	letter-spacing: 0.02em;
+}
+div#livraria h2#mvend::before{
+	width: 198px;
+	height: 0px;
+	left: -3px;
+	border: 1px solid #B2784A;
+}
+figure#livroahsf img{
+	top: 111px;
+	left: 77px;
+}
+figure#livroahsf figcaption{
+	top: 114px;
+	left: 80px;
+}
+figure#livrota img{
+	top: -271px;
+	left: 328px;
+}	
+figure#livrota figcaption{
+	top: -262px;
+	left: 330px;
+}
+figure#livrord img{
+	top: -249px;
+	left: 78px;
+}
+figure#livrord figcaption{
+	top: -250px;
+	left: 78px;
+}
+figure#livro1984 img{
+	top: -630px;
+	left: 327px;
+}
+figure#livro1984 figcaption{
+	top: -627px;
+	left: 329px;
+}
+figure#livroomdm img, figure#livroomdm figcaption{
+	display: none;
+}
+p#sinopse1, p#sinopse2, p#sinopse3, p#sinopse4{
+	display: block;
+	background-color: #8F542E;
+	color: #F0F0F0;
+	text-align: center;
+	width: 69px;
+	height: 22px;
+	padding-top: 2px;
+	border-radius: 4px;
+	font-size: 12px;
+	font-weight: 700;
+	letter-spacing: 0.02em;
+}
+p#sinopse1{
+	position: absolute;
+	top: 17px;
+	left: 159px;
+}
+p#sinopse2{
+	position: absolute;
+	top: 17px;
+	left: 159px;
+}
+p#sinopse3{
+	position: absolute;
+	top: 17px;
+	left: 158px;
+}
+p#sinopse4{
+	position: absolute;
+	top: 17px;
+	left: 159px;
+}
+div#cafeteria h1{
+	top: 52px;
+	left: 225px;
+	font-weight: 500;
+	font-size: 34px;
+	line-height: 42px;
+	letter-spacing: 0.02em;
+}
+div#cafeteria h1::before{
+	width: 160px;
+	height: 0px;
+	border: 1px solid #B2784A;
+	top: 46px;
+	left: 12px;
+}
+.galeria{
+	left: 24px;
+}
+div#orcamento h1{
+	top: 32px;
+	left: 36px;
+	font-weight: 700;
+	font-size: 34px;
+	line-height: 42px;
+	letter-spacing: 0.02em;
+}
+div#orcamento h1::before{
+width: 409px;
+height: 21px;
+left: 210px;
+top: 21px;
+}
+div#orcamento img#imgorcserv{
+	display: none;
+}
+div#orcamento h2{
+	font-size: 22px;
+}
+div#orcamento h2#orcnome{
+	top: 64px;
+	left: 58px;
+}
+.input-box input#nome{
+	top: 66px;
+	left: 57px;
+	width: 526.67px;
+	height: 65px;
+}
+div#orcamento h2#orcemail{
+	top: 82px;
+	left: 59.66px;
+}
+.input-box input#email{
+	top: 86px;
+	left: 58.33px;
+	width: 526.67px;
+	height: 65px;
+}
+div#orcamento h2#orcmensag{
+	top: 102px;
+	left: 58.33px;
+}
+.input-box textarea#msg{
+	top: 106px;
+	left: 57px;
+	height: 220px;
+	width: 587px;
+	width: 527px;
+	height: 200px;
+}
+div#orcamento img#imgorcserv{
+	display: none;
+}
+ul#botao2orcserv{
+	position: relative;
+	top: 130px;
+	left: 199px;
+}
+footer{
+	top: 2945px;
+}
+}
+
+@media screen and (min-width: 641px) and (max-width: 820px){
+	img#livroserv1{
+	top:325px;
+	width: 177.73px;
+	height: 123.74px;
+}
+img#livroserv2{
+	top:325px;
+	left: 54.5vw;
+	width: 177.73px;
+	height: 123.74px;
+}
+}
+
+@media screen and (min-width: 1440px){
+	div#servicos h1#divserv{
+		top: 302px;
+		left: 515px;
+	}
+	img#livroserv2{
+		top: 170px;
+		left: 652px;
+}
+
+figure#livroahsf img{
+	top: 125px;
+	left: 220px;
+}
+figure#livroahsf figcaption{
+	top: 130px;
+	left: 220px;
+}
+figure#livrota img{
+	top: -257px;
+	left: 603px;
+}	
+figure#livrota figcaption{
+	top: -252px;
+	left: 603px;
+}
+figure#livrord img{
+	top: -637px;
+	left: 989px;
+}
+figure#livrord figcaption{
+	top: -635px;
+	left: 991px;
+}		
+figure#livro1984 img{
+	top: -605px;
+	left: 413px;
+}
+figure#livro1984 figcaption{
+	top: -600px;
+	left: 418px;
+}
+figure#livroomdm img{
+	top: -985px;
+	left: 791px;
+}
+figure#livroomdm figcaption{
+	top: -980px;
+	left: 791px;
+}
+div#cafeteria h1{
+	top: 52px;
+	left: 608px;
+}
+}

@@ -1,0 +1,302 @@
+footer {
+    position: absolute;
+    width:  100vw !important; 
+    /* min-width: 1440px; */
+    height: 402px;
+    left: 0px;
+    top: 2458px;
+    
+    background: #57290B;
+}
+
+#PalavrasCafeinadas{
+/* Palavras Cafeinadas */
+
+
+position: absolute;
+width: 246px;
+height: 39px;
+left: 120px;
+top: 219px;
+
+font-family: 'Cormorant Garamond';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 39px;
+/* identical to box height */
+
+
+color: #EBDACC;
+}
+
+#logo_branca {
+    /* logo_branca 1 */
+
+
+    position: absolute;
+    width: 127px;
+    height: 162.03px;
+    left: 182px;
+    top: 58px;
+
+}
+#Contatos {
+    position: absolute;
+    width: 257px;
+    height: 230px;
+    left: 528px;
+    top: 58px;
+    
+}
+#DesenvolvidoPorUnectJr {
+    /* Desenvolvido por Unect Jr */
+
+
+position: absolute;
+width: 220px;
+height: 22px;
+left: 120px;
+top: 348px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+/* identical to box height */
+
+letter-spacing: 0.05em;
+
+color: #FFDAB8;
+
+
+}
+#Rectangle58 {
+/* Rectangle 58 */
+
+
+position: absolute;
+
+height: 2px;
+width: 86%;
+/* min-width: 925px; */
+left: 120px;
+top: 318px;
+
+background: #A76E42;
+border-radius: 2px;
+
+}
+
+#Redessociais {
+/* Rede sociais */
+
+
+position: absolute;
+width: 204px;
+height: 140.57px;
+left: 833px;
+top: 58px;
+}
+
+#TodosOsDireitosReservados {
+/* Todos os direitos reservados © */
+
+
+position: absolute;
+width: 260px;
+height: 22px;
+right: 80px;
+top: 348px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+/* identical to box height */
+
+letter-spacing: 0.05em;
+
+color: #FFDAB8;
+}
+
+#Instagram {
+position: absolute;
+width: 25px;
+height: 28.57px;
+left: 834px;
+top: 123px;
+}
+
+#Arrobainsta {
+
+    position: absolute;
+    width: 170px;
+    height: 22px;
+    left: 867px;
+    top: 110px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: #EBDACC;
+
+}
+
+#Facebook {
+
+position: absolute;
+width: 25px;
+height: 28.57px;
+left: 834px;
+top: 171px;
+
+}
+
+#RedesSociais {
+    position: absolute;
+    width: 192px;
+    height: 33px;
+    left: 833px;
+    top: 34px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 33px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+#Palavrascafeinadas {
+    position: absolute;
+    width: 161px;
+    height: 22px;
+    left: 867px;
+    top: 160px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: #EBDACC;
+}
+
+#Contato {
+position: absolute;
+width: 127px;
+height: 33px;
+left: 528px;
+top: 34px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 900;
+font-size: 24px;
+line-height: 33px;
+/* identical to box height */
+
+letter-spacing: 0.05em;
+text-transform: uppercase;
+
+color: #EBDACC;
+}
+
+#NumerodeContato {
+    /* 19-991256972 */
+
+
+position: absolute;
+width: 106px;
+height: 22px;
+left: 561px;
+top: 110px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 900;
+font-size: 16px;
+line-height: 22px;
+/* identical to box height */
+
+
+color: #EBDACC;
+}
+
+#Email {
+    /* contato@gmail.com */
+
+
+position: absolute;
+width: 160px;
+height: 22px;
+left: 561px;
+top: 160px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 22px;
+/* identical to box height */
+
+
+color: #EBDACC;
+}
+
+#IconeTelefone {
+/* square-phone-solid 1 */
+
+
+position: absolute;
+width: 25px;
+height: 28.57px;
+left: 528px;
+top: 123px;
+}
+
+#IconeEmail {
+position: absolute;
+width: 25px;
+height: 28.57px;
+left: 528px;
+top: 171px;
+}
+
+#IconeMaps {
+    /* location-dot-solid 1 */
+
+
+position: absolute;
+width: 23px;
+height: 30.67px;
+left: 529px;
+top: 213px;
+}
+
+#Endereço {
+    /* Av. Paulista, 1324 - Bela Vista, São Paulo - SP, 01310-100 */
+
+
+position: absolute;
+width: 224px;
+height: 72px;
+left: 561px;
+top: 198px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 24px;
+/* or 150% */
+
+letter-spacing: 0.03em;
+
+color: #EBDACC;
+
+}

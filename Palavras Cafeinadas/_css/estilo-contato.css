@@ -1,0 +1,318 @@
+@charset "UTF-8";
+
+body{
+	background-color: #F0F0F0;
+}
+footer{
+	top: 986px;
+}
+/* Posicionamento dos elementos */
+h1#eec{
+	position: relative;
+	width: 406px;
+	height: 48px;
+	left: 118px;
+	top: 142px;
+}
+section#infos{
+	margin-top: 189px;
+	margin-left: 120px;
+}
+aside#conteudo{
+	margin-top: 189px;
+	
+}
+h2#teleec, h2#emaileec, h2#endeec, h2#instaeec, h2#faceeec{
+	position: relative;
+	left: 74px;
+}
+img#logo_teleec, img#logo_emaileec, img#logo_endeec, img#logo_instaeec, img#logo_faceeec{
+	position: relative;
+	left: 40px;
+}
+h2#teleec{
+	top: 13px;
+}
+h2#emaileec{
+	top: 0px;
+}
+h2#endeec{
+	top: -15px;
+}
+h2#faceeec{
+	top: -10px;
+}
+img#logo_teleec{
+	top: 43px;
+}
+img#logo_emaileec{
+	top: 30px;
+}
+img#logo_endeec{
+	top: 20px;
+}
+img#logo_instaeec{
+	top: 31px;
+}
+img#logo_faceeec{
+	top: 20px;
+}
+h2#nomeeec{
+	position: relative;
+	left: 41px;
+	top: 43px;
+}
+h2#emaileec2{
+	position: relative;
+	left: 42px;
+	top: 100px;
+}
+h2#mensageec{
+	position: relative;
+	left: 42px;
+	top: 160px;
+}
+.input-box input#nome, input#email, textarea#msg{
+	padding: 0.8rem 1.2rem;
+	font-family: 'Open Sans';
+	font-size: 20px;
+}
+.input-box input#nome, input#email{
+	border: 1px solid #8F542E;
+	border-radius: 8px;
+	height: 70px;
+	width: 609px;
+}
+.input-box input#nome{
+	position: relative;
+	top: 47px;
+	left: 35px;
+}
+.input-box input#email{
+	position: relative;
+	top: 107px;
+	left: 35px;
+}
+.input-box textarea#msg{
+	position: relative;
+	top: 164px;
+	left: 35px;
+	border: 1px solid #8F542E;
+	border-radius: 8px;
+	height: 220px;
+	width: 609px;
+	resize: none;
+}
+.input-box input, textarea:focus-visible{
+	outline: 1px solid #8F542E;
+}
+
+figure#logoeec{
+	position: relative;
+	top: 141px;
+	left: 162px;
+}
+figure#logoeec figcaption{
+	position:relative;
+	right: 61px;
+}
+/* Definindo a area da janela */
+section#infos{
+	display: block;
+	width: 510px;
+	height: 811px;
+	background-color: #8F542E;
+	float: left;
+	border-radius: 8px 0 0 8px;
+	margin-bottom: 30px;
+}
+aside#conteudo{
+	display: block;
+	width: 690px;
+	height: 811px;
+	background-color: #F5F3ED;
+	float: left;
+	border-radius: 0 8px 8px 0;
+}
+/* Formatação de textos */
+h1#eec{
+	font-family: 'Cormorant Garamond';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 48px;
+	letter-spacing: 0.02em;
+	color: #1F0C00;
+}
+h2.infos{
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 25px;
+	color: #EBDACC;
+}
+h2#endeec{
+	letter-spacing: 0.03em; 
+}
+h2.conteudo{
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 30px;
+	letter-spacing: 0.02em;
+	color: #1F0C00;
+}
+figure#logoeec figcaption{
+	font-family: 'Cormorant Garamond';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 32px;
+	line-height: 39px;
+	color: #EBDACC;
+}
+
+/* Sublinhados */
+
+h1#eec::before {
+	content: "";
+	position: absolute;
+	top:23px;
+	left: 222px;
+	bottom: 16px;
+	width: 438px;
+	height: 28px;
+	transform: translateX(-55%);
+	background: #FBC9A8;
+	z-index: -1;
+}
+h2#endeec::before{
+	border-bottom: 3px solid var(--color-botao);
+	content: "";
+	position: absolute;
+    width: 348px;
+    top: 97px;
+	left: -40px;
+	transform: rotate(0.16deg);
+}
+
+/* Formatação botão */
+ul#botaoeec{
+	position: relative;
+	left: 41px;
+	top: 190px;
+	background-color: #8F542E;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 12px 30px;
+	gap: 27px;
+	border-radius: 8px;
+	cursor: pointer;
+	width: 282px;
+}
+ul#botaoeec li{
+	font-family: 'Open Sans';
+	font-size: 18px;
+	font-weight: 800;
+	line-height: 33px;
+	letter-spacing: 0.03em;
+	position: relative;
+	display: inline-block;
+	color: #F0F0F0;
+}
+/* Responsividade */
+main{
+	min-width: 640px;
+	max-width: 1440px;
+	margin: auto;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.418);
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+
+@media screen and (max-width: 640px){
+	section#infos{
+		display: none;
+	}
+	h1#eec{
+		font-size: 34px;
+		left: 36px;
+		top: 142px;
+	}
+	h1#eec::before {
+		content: "";
+		position: absolute;
+		top:23px;
+		left: 192px;
+		bottom: 16px;
+		width: 370px;
+		height: 28px;
+		transform: translateX(-55%);
+		background: #FBC9A8;
+		z-index: -1;
+	}
+	
+	aside#conteudo{
+		position: relative;
+		width: 568px;
+		height: 584px;
+		border: 12px solid #8F542E;
+		margin-bottom: 57px;
+		border-radius: 8px 8px 8px 8px;
+		left: 20px;
+	}
+	.input-box input#nome, input#email{
+		width: 460px;
+		height: 35px;
+	}
+	.input-box textarea#msg{
+		width: 460px;
+		height: 100px;
+	}
+	ul#botaoeec{
+		top: 115px;
+		left: 143px;
+		width: 242px;
+	}
+	
+	
+	h2#nomeeec{
+		top: 20px;
+		left: 21.33px;
+	}
+	h2#emaileec2{
+		top: 56px;
+		left: 20px;
+	}
+	h2#mensageec{
+		top: 76px;
+		left: 20px;
+	}
+	.input-box input#nome{
+		top: 20px;
+		left: 20px;
+}
+	.input-box input#email{
+		top: 56px;
+		left: 20px;
+}
+	.input-box textarea#msg{
+		top: 86px;
+		left: 20px;
+	}
+}
+@media screen and (min-width: 641px) and (max-width: 1350px){
+	section#infos{
+		display: none;
+	}
+	aside#conteudo{
+		position: relative;
+		left: 18vw;
+		border: 12px solid #8F542E;
+		margin-bottom: 10px;
+		border-radius: 8px 8px 8px 8px;
+		width: 710px;
+	}
+}
